@@ -1,0 +1,224 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 1700px;
+  margin: auto;
+  position: fixed;
+  background-color: #cfc5a5;
+  padding: 8px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mobile-menu {
+  float: right;
+  display: none;
+}
+
+header {
+  padding-left: 70px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.navbar a {
+  float: left;
+  color: #181818;
+  padding: 0px 16px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  text-align: center;
+  -webkit-animation: step-end;
+  display: inline-block;
+}
+
+nav ul li {
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+  margin: 5px;
+  padding-left: 30px;
+}
+
+/* ganti warna link ketika tersentuh mouse */
+.navbar ul li a:hover {
+  background-color: rgb(77, 61, 61);
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+}
+
+#Home {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #eae3c8;
+  padding: 40px 20px;
+}
+
+#Home img {
+  padding: 60px 20px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+h2 {
+  padding: 30px 15px;
+  margin: 5px;
+  text-decoration-line: underline;
+  font-size: 30px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.introduce {
+  font-size: 100%;
+  text-align: justify;
+  margin: 5px;
+  padding: 15px;
+  font-family: sans-serif;
+  text-indent: 45px;
+}
+
+#Biodata {
+  background-color: #eae3c8;
+  padding: 25px 15px;
+}
+
+h3 {
+  padding: 30px 15px;
+  margin: 5px;
+  text-decoration-line: underline;
+  font-size: 30px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.nama {
+  font-size: 30px;
+  text-align: center;
+  margin: 5px 0px;
+  padding-bottom: 20px;
+}
+
+#Biodata ul {
+  text-align: center;
+  font-size: 15px;
+  margin: 5px 0;
+  list-style-type: none;
+  padding-bottom: 25px;
+  padding-top: 30ps;
+}
+
+h4 {
+  padding: 30px 15px;
+  margin: 5px;
+  text-decoration-line: underline;
+  font-size: 30px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+p3 {
+  font-size: 100%;
+  text-align: justify;
+  margin: 5px;
+  padding: 20px;
+  font-family: sans-serif;
+  text-indent: 45px;
+}
+
+.karya {
+  text-align: center;
+  padding: 25px 20px;
+}
+
+p4 {
+  font-size: 30px;
+  text-decoration: bold;
+  font-family: 'Times New Roman';
+  padding-top: 15px;
+}
+
+span {
+  padding-bottom: 10px;
+}
+
+#Skill ul {
+  text-align: center;
+  list-style-type: none;
+  font-size: 15px;
+  padding: 15px;
+}
+
+p5 {
+  font-size: 30px;
+  text-decoration: bold;
+  font-family: 'Times New Roman';
+  padding-top: 15px;
+}
+
+#Contact {
+  background-color: #eae3c8;
+}
+
+h5 {
+  padding: 30px 15px;
+  margin: 5px;
+  text-decoration-line: underline;
+  font-size: 30px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  padding-left: 400px;
+  position: relative;
+}
+
+.input text-area {
+  width: 100%;
+  border: 1px solid #fff;
+  padding: 5px;
+  outline: 0;
+  font-size: 15px;
+  background: transparent;
+}
+
+label {
+  cursor: text;
+}
+
+button {
+  cursor: pointer;
+}
+
+div i {
+  margin: 8px;
+  padding-top: 5px;
+}
+
+footer {
+  background-color: #cfc5a5;
+  text-align: center;
+}
